@@ -1,0 +1,1 @@
+alert("You can't right click or inspect this website as I disabled it.");

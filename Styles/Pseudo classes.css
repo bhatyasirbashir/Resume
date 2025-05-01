@@ -1,0 +1,28 @@
+nav a:hover {
+    color: #470404e1;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+#para_first:hover {
+    font-size: 5.7em;
+    color: darkred;
+    cursor: none;
+    text-shadow: -6px -8px 4px #c14594;
+}
+
+#para_second:hover {
+    color: #105c1d;
+    font-size: 1.7em;
+    cursor: none;
+    text-shadow: 4px 6px 5px #030061;
+}
+
+#download_resume:hover{
+    color: #71e1d0;
+    font-size: 1.1em; 
+    background-color: #97b35fc5;
+    border: 3px outset #cce71ad5;
+    transition: all 1s 0s ease-in;
+}
+

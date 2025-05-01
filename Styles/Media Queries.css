@@ -1,0 +1,100 @@
+/* Nav Media Query */
+@media screen and (max-width:365px) {
+    nav {
+        background-image: linear-gradient(#87ab0e 10%, #4846bf 46%, #64c78e);
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.2em;
+    }
+}
+
+/* Home_section Media Query */
+@media screen and (min-width:200px) and (max-width:750px) {
+    #Home_section {
+        background-image: linear-gradient(#6b2505 10%, #2f3623 46%, #3c2500 90%);
+    }
+
+    #para_first {
+        font-size: 4.3em;
+        font-weight: 550;
+    }
+
+    #para_first:hover {
+        font-size: 4.5em;
+        color: darkred;
+    }
+
+    #para_second {
+        font-size: 1.1em;
+        font-weight: 450;
+    }
+
+    #para_second:hover {
+        color: rgb(4, 210, 38);
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width:800px) {
+    #bio_container {
+        width: 75%;
+        letter-spacing: 2px;
+        line-height: 34px;
+    }
+}
+
+@media screen and (min-width:520px) and (max-width:750px) {
+    #mainresumecontainer{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:520px) {
+    #mainresumecontainer{
+        width: 88%;
+    }
+}
+
+/* bio_container Media Query */
+@media screen and (min-width:800px) {
+    #bio_container {
+        width: 75%;
+        letter-spacing: 2px;
+        line-height: 34px;
+    }
+}
+
+/* mainresumecontainerc Media Query */
+@media screen and (min-width:520px) and (max-width:750px) {
+    #mainresumecontainer{
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:250px) and (max-width:520px) {
+    #mainresumecontainer{
+        width: 88%;
+    }
+}
+
+@media screen and (max-width:385px) {
+    #mainresumecontainer{
+        width: 95%;
+    }
+}
+/* Move-home Media Query */
+@media screen and (max-width: 860px){
+    #imgcontainer{
+        float: none;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+/* Move-home Media Query */
+@media screen and (max-width: 420px){
+    #Move-home{
+        left: 35%;
+    }
+}

@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-size: 0.88em;
+}
+
+/* nav section starts here */
+nav {
+    background-image: radial-gradient(#2f3d02 10%, #716b16 46%, #7d0000);
+    position: fixed;
+    width: 100vw;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.3em;
+
+    animation: navanimate ease-in-out 0.5s 0s infinite alternate;
+}
+
+nav a {
+    color: silver;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-style: oblique;
+    font-family: Cambria, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    padding: 5px;
+
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: nav-a-animate ease-in-out 1s 0s infinite alternate;
+}
+
+/* nav section ends here */
+
+/* home section starts here */
+#Home_section {
+    background-image: radial-gradient(#6b2505 10%, #2f3623 46%, #3c2500 90%, #04723b);
+    height: 580px;
+    width: auto;
+    font-style: oblique;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 15px 6px #a0a800;
+    
+    animation: home-section-animate ease-out 10s 0s infinite alternate;
+}
+
+#para_first {
+    font-size: 5.4em;
+    font-family: Cambria, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #9c902a;
+    text-shadow: -5px -4px 4px #bdbdbb;
+    margin-left: 40px;
+
+    transition: all 2s ease-in;
+    animation: home-para-animate ease-in-out 1s 0s infinite;
+}
+
+#para_second {
+    font-size: 1.6em;
+    font-family: Cambria, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #ec5ad1;
+
+    transition: all 2s ease-in;
+    animation: home-para-animate ease-in-out 1s 0s infinite;
+}
+
+#downwardbutton_img {
+    margin-top: 35px;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    box-shadow: 0px 0px 10px 8px #e14745, 0px 0px 15px 10px #058dd1;
+}
+/* Home section starts here */
+
+/* About section ends here */
+#About_section {
+    background-image: radial-gradient(#005b21 10%, #004d50 46%, #6d9f03 90%, #3f1933);
+    height: auto;
+    padding: 50px 5px;
+    box-shadow: inset 0px 0px 15px 6px #F44336;
+}
+
+#about_h2 , #contact_h3 {
+    color: #226d02;
+    border: 11px outset #350101ec;
+    border-radius: 40%;
+    font-size: 1.6em;
+    font-style: oblique;
+    font-family: Cambria, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin: 25px;
+    padding: 5px;
+    display: inline-block;
+
+    animation: for_h2_h3animate ease-in-out 1s 0s infinite alternate;
+}
+
+#imgbiodiv {
+    margin: 1px 1px 8px 1px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile_img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+    animation: imgcontainer-img-animate ease-in-out 1s 0s infinite alternate;
+}
+
+#bio_container{
+    color: #c4b6b6f6;
+    font-style: oblique;
+    font-family: Century Gothic, sans-serif;
+    width: 85%;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+#downloadresumediv{
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+#download_resume{
+    color: #dedbdb;
+    font-size: 1em;
+    font-style: oblique;
+    height: 70px;
+    width: 200px;
+    background-color: transparent;
+    border: 3px outset #1ba018d5;
+    border-style:outset;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin: -52px 0;
+    
+    animation: download-resume-div linear 0.75s 0s infinite alternate;
+}
+/* About Section ends here */
+
+/* Resume Section starts here */
+#Resume_section {
+    background-image: radial-gradient( #FFE000, #799F0C, #00416A , #3d3636f7); 
+    color: #a2a1a1;
+    height: 700px;
+    font-family: librebaskerville-italic , serif;
+    box-shadow: inset 0px 0px 15px 6px #a0a800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+#mainresumecontainer{
+    background-color: #726d6def;
+    border-radius: 15px;
+    height: 100%;
+    width: 70%;
+    padding: 25px 5px;
+    border: 2px solid #f5daa8;
+    box-shadow: 0px 0px 15px 6px #a0a800 , inset 0px 0px 15px 7px #bdbdbb;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+    animation: backgroundcolorresumeanimate linear 30s 0s infinite alternate;
+}
+
+#imgcontainer{
+    float: right;
+    margin-right: 50px;
+    margin: 45px 50px;
+    border-radius: 24px;
+}
+
+#imgcontainer img{
+    height: 200px;
+    width: 150px;
+    border: 3px solid rgb(135, 23, 23);
+    border-radius: 24px;
+
+    animation: imgcontainer-img-animate ease-in-out 1s 0s infinite alternate;
+}
+
+#h1_resume_heading{
+    color: #000000;
+    font-family: Arial Rounded MT Bold ;
+    font-size: 48px;
+    font-style: oblique;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: 3px underline #4a4848;
+    margin: 8px 0px;
+
+    animation: main-h1-resumeanimate linear 20s 0s infinite alternate;
+}
+
+.resume_container{
+    margin: 10px 8px;
+}
+
+.Topic_heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    font-style: oblique;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 8px 0px 8px 10px;
+
+    animation: colorresumeanimate linear 60s 0s infinite alternate;
+}
+
+.details_container{ 
+    margin-left: 45px; 
+}
+
+.details_container ul{
+    list-style-image: url(./Images/Symbol.PNG);
+}
+
+.firstresumespan , .singleresumediv{
+    color: black;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-right: 20px;
+    
+    animation: colorresumeanimate linear 60s 0s infinite alternate;
+}
+
+.secondresumespan{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+
+    animation: colorresumeanimate linear 60s 0s infinite alternate;
+}
+
+.singleresumediv{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 10px;
+
+    animation: colorresumeanimate linear 60s 0s infinite alternate;
+}
+/* Resume Section ends here */
+
+/* Contact Section starts here */
+#Contact_section {
+    background-color: #191919;
+    color: #ffffff;
+    height: auto;
+    box-shadow: inset 0px 0px 15px 6px #F44336;
+}
+
+/* #Contact_h3 is already mentioned in Line no 150 */
+
+#maincontactcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#accounts_div img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 1em;
+}
+
+#accounts_div{
+    margin: 0.7em 1em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+#accounts_div a {
+    text-decoration: none;
+}
+
+#accounts_div span{
+    color: #11ABB0;
+    font-size: 1.1em;
+}
+
+.account_details{
+    display: flex;
+    align-items: center;
+}
+
+#address_div{
+    margin: 0.7em 1em;
+    padding: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+#address_div span{
+    font-size: 1.1em;
+}
+
+#address_div img{
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    margin: 1em;
+}
+
+#upwardbutton_img {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    box-shadow: 0px 0px 10px 8px #e14745, 0px 0px 15px 10px #058dd1;
+}
+
+#Move-home{
+    padding: 0 1em;
+    display: inline-block;
+    position: relative;
+    z-index: 5;
+    left: 45vw;
+    top: 40px;
+}
+/* Contact Section ends here */
+
+/* Footer Section starts here */
+footer{
+    background-color: #000000;
+    box-shadow: 0px 15px 3px #F44336;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+#copyright{
+    color: #908c8ce6;
+    font-size: 1.15em;
+    padding-bottom: 35px;
+}
+/* Footer Section ends here */
